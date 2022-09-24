@@ -3,7 +3,7 @@ const INSPIRATION_API = 'https://inspirobot.me/api?generate=true';
 const CURIOPOST_CDN = 'https://cdn.curiopost.live';
 const CURIOPOST_API = 'https://backend.curiopost.live'
 const CURIOPOST_TOKEN = process.env.CURIOPOST_TOKEN;
-const TIMEOUT = 3600000;//
+const TIMEOUT = 3600000;//1 hour in milliseconds
 
 const fetch = require("node-fetch");
 const FormData = require('form-data');
