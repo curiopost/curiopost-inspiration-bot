@@ -101,7 +101,7 @@ const getUser = await fetch(CURIOPOST_API+"/api/auth/getuser",{
 
 const data = await getUser.json()
 if(!data.success) {
-    console.error("Could not authenticate with p!uriopost, please check if your token is valid.")
+    console.error("Could not authenticate with Curiopost, please check if your token is valid.")
     process.exit(1)
 } else {
     console.log("Successfully authenticated with Curiopost!")
