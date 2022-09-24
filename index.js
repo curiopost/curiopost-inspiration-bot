@@ -104,7 +104,7 @@ if(!data.success) {
     console.error("Could not authenticate with Curiopost, please check if your token is valid.")
     process.exit(1)
 } else {
-    console.log("Successfully authenticated with Curiopost!")
+    console.log(`Successfully authenticated with Curiopost as ${data.raw_data.username}`)
 }
 } catch(e) {
     console.error(e)
